@@ -4,7 +4,7 @@ Welcome to the companion repository for the interactive visualization project ca
 
 ## Problems
 
-## Visualization
+## Solutions
 
 ## Material
 
