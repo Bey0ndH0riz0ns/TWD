@@ -15,6 +15,7 @@ Assuming you have Tableau installed, open the workbook and unhide all charts by 
 
 The integration of 11 online survey datasets with different amounts of rows and questions creates the following problems:
 
+
 - Questionable explanatory power of self-identified answers
 - Identification of relevant questions from many questions
 - The changing format between datasets
@@ -23,28 +24,54 @@ The integration of 11 online survey datasets with different amounts of rows and 
 - Multi-choice questions
 - The potential effects of missing answers
 
+
 Here is an example of the first problem:
+
 
 ![image 1](https://github.com/Bey0ndH0riz0ns/TWD/blob/main/Images/Example_Problem_1.PNG)
 
+
 Here is an example of the second problem:
+
 
 ![image 2](https://github.com/Bey0ndH0riz0ns/TWD/blob/main/Images/Example_Problem_2.PNG)
 
+
 Here is an example of the third problem:
+
+
+![image 3](https://github.com/Bey0ndH0riz0ns/TWD/blob/main/Images/Example_Problem_3_1.PNG)
+
+
+![image 4](https://github.com/Bey0ndH0riz0ns/TWD/blob/main/Images/Example_Problem_3_2.PNG)
+
 
 Here is an example of the fourth problem:
 
+
+![image 5](https://github.com/Bey0ndH0riz0ns/TWD/blob/main/Images/Example_Problem_4.PNG)
+
+
 Here is an example of the fifth problem:
 
+
+![image 6](https://github.com/Bey0ndH0riz0ns/TWD/blob/main/Images/Example_Problem_5.PNG)
+
+
 Here is an example of the sixth problem:
+
+
+![image 7](https://github.com/Bey0ndH0riz0ns/TWD/blob/main/Images/Example_Problem_6.PNG)
+
 
 Here is an example of the seventh problem:
 
 
+![image 8](https://github.com/Bey0ndH0riz0ns/TWD/blob/main/Images/Example_Problem_7.PNG)
 
 
 ## Solutions
+
 
 ## Material
 
