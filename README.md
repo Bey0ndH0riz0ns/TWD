@@ -25,7 +25,11 @@ The integration of 11 online survey datasets with different amounts of rows and 
 
 Here is an example of the first problem:
 
+![image 1](https://github.com/Bey0ndH0riz0ns/TWD/blob/main/Images/Example_Problem_1.PNG)
+
 Here is an example of the second problem:
+
+![image 2](https://github.com/Bey0ndH0riz0ns/TWD/blob/main/Images/Example_Problem_2.PNG)
 
 Here is an example of the third problem:
 
