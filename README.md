@@ -94,6 +94,25 @@ As we can see, there are a lot of empty answers due to this question not being i
 ## Solutions
 
 
+In order to solve these challenges, the following five compromises were made: 
+
+
+- Central limit theorem is assumed
+- Newer questions are prioritized
+- Choice selection is enabled for multi-choice questions
+- Regex matching is used to unify relevant lables
+- The focus on drill down frequency calculations
+
+
+The problem of the 'Questionable explanatory power of self-identified answers' is solved by assuming the central limit theorem, which means that all the variables approximate some kind of global normal distribution. This was done because we only have methodology material for the 2017-2022 datasets, and the integrated dataset has 560 000 responses, which means that there should be enough honest people to give good global approximations for the visualization.   
+
+
+The problems of 'Identification of relevant questions from many questions'. 'The changing format between datasets' and 'The large size of the dataset' were solved with a suitable ![preprocess](https://github.com/Bey0ndH0riz0ns/TWD/blob/main/SO_survey_unified_preprocess_2011_2022.ipynb) with Numpy and Pandas prioritizing newer information over older information, forming variables that represent meta, demographic, education, employment, and technology information. The dataset formed by these variables was then stored as a .csv, which could be put into either a PostgreSQL table or a .hyper to enable Tableu to use it.
+
+
+The problems of 'Different labels for the same data', 'Multi-choice questions', and 'The potential effects of missing answers' were solved in Tableau by separating multi-choice values into separate columns, using Regex matching to unify similar labels into relevant labels to calculate their frequencies and giving the visualization charts simple drill down filters to focus on different sides of the data.
+
+
 ## Material
 
 ---
