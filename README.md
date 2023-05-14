@@ -20,8 +20,8 @@ The integration of 11 online survey datasets with different amounts of rows and 
 - Identification of relevant questions from many questions
 - The changing format between datasets
 - The large size of the dataset
-- Different labels for the same data
 - Multi-choice questions
+- Different labels for the same data
 - The potential effects of missing answers
 
 
@@ -63,6 +63,14 @@ Here is an example of 'The large size of the dataset':
 
 As we can see, the integrated dataset is quite huge, which makes it harder to handle with limited computational resources and different software limitations.
 
+Here is an example of 'Multi-choice questions':
+
+
+![image 7](https://github.com/Bey0ndH0riz0ns/TWD/blob/main/Images/Example_Problem_6.PNG)
+
+
+As we can see, a single value has multiple answers delimited with ';', which makes it much more difficult to get the correct distributions.
+
 
 Here is an example of 'Different labels for the same data':
 
@@ -71,15 +79,6 @@ Here is an example of 'Different labels for the same data':
 
 
 As we can see with the marked categories, there are multiple labels for similar data, which makes the distributions distorted.
-
-
-Here is an example of 'Multi-choice questions':
-
-
-![image 7](https://github.com/Bey0ndH0riz0ns/TWD/blob/main/Images/Example_Problem_6.PNG)
-
-
-As we can see, a single value has multiple answers delimited with ';', which makes it much more difficult to get the correct distributions.
 
 
 Here is an example of 'The potential effects of missing answers':
@@ -110,11 +109,17 @@ The problem of the 'Questionable explanatory power of self-identified answers' i
 The problems of 'Identification of relevant questions from many questions'. 'The changing format between datasets' and 'The large size of the dataset' were solved with a suitable ![preprocess](https://github.com/Bey0ndH0riz0ns/TWD/blob/main/SO_survey_unified_preprocess_2011_2022.ipynb) with Numpy and Pandas prioritizing newer information over older information, forming variables that represent meta, demographic, education, employment, and technology information. The dataset formed by these variables was then stored as a .csv, which could be put into either a PostgreSQL table or a .hyper to enable Tableu to use it.
 
 
-The problems of 'Different labels for the same data', 'Multi-choice questions', and 'The potential effects of missing answers' were solved in Tableau by separating multi-choice values into separate columns, using Regex matching to unify similar labels into relevant labels to calculate their frequencies and giving the visualization charts simple drill down filters to focus on different sides of the data. 
+The problems of 'Multi-choice questions' 'Different labels for the same data', and 'The potential effects of missing answers' were solved in Tableau by separating multi-choice values into separate columns, using Regex matching to unify similar labels into relevant labels to calculate their frequencies and giving the visualization charts simple drill down filters to focus on different sides of the data. 
 
-![image 9](https://github.com/Bey0ndH0riz0ns/TWD/blob/main/Images/Solution_5.PNG)
+Here is a solution to DevType multi choice values:
 
-![image 10](https://github.com/Bey0ndH0riz0ns/TWD/blob/main/Images/Solution_6.PNG)
+![image 9](https://github.com/Bey0ndH0riz0ns/TWD/blob/main/Images/Solution_6.PNG)
+
+Here is a solution to DevType label unification:
+
+![image 10](https://github.com/Bey0ndH0riz0ns/TWD/blob/main/Images/Solution_5.PNG)
+
+Here are the available drill down filters for map chart:
 
 ![image 11](https://github.com/Bey0ndH0riz0ns/TWD/blob/main/Images/Solution_7.PNG)
 
