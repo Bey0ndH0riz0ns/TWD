@@ -129,9 +129,4 @@ Here are the available drill down filters for map chart:
 
 Visualizing the Stack Overflow survey datasets is not novel, so you can get second opinions about this dataset and the approach used here by searching existing data analyses. Good starting points are ['10 years of Stack Overflow Surveys'](https://medium.com/@ismaelmasharo/10-years-of-stack-overflow-surveys-c8ff3f662b2f) by Ismael Masharo from Medium and ['A Look at the Trends in Developed Jobs: A Meta Analysis of Stack Overflow Surveys'](https://hackernoon.com/a-look-at-the-trends-in-developer-jobs-a-meta-analysis-of-stack-overflow-surveys) by Lane Wagner from Hackernoon. Since this project was originally an individual university project, the reports created during it will be posted here later. The most interesting one is a 3-person user study, where a software developer and two data scientists test an earlier prototype. Only the abstracted findings of this report are given to protect their privacy.  
 
-
----
-
-
-
 ---
