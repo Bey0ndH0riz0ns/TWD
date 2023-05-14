@@ -70,16 +70,25 @@ Here is an example of 'Different labels for the same data':
 ![image 6](https://github.com/Bey0ndH0riz0ns/TWD/blob/main/Images/Example_Problem_5.PNG)
 
 
+As we can see with the marked categories, there are multiple labels for similar data, which makes the distributions distorted.
+
+
 Here is an example of 'Multi-choice questions':
 
 
 ![image 7](https://github.com/Bey0ndH0riz0ns/TWD/blob/main/Images/Example_Problem_6.PNG)
 
 
+As we can see, a single value has multiple answers delimited with ';', which makes it much more difficult to get the correct distributions.
+
+
 Here is an example of 'The potential effects of missing answers':
 
 
 ![image 8](https://github.com/Bey0ndH0riz0ns/TWD/blob/main/Images/Example_Problem_7.PNG)
+
+
+As we can see, there are a lot of empty answers due to this question not being in all of the surveys, which results in a distorted data distribution.
 
 
 ## Solutions
