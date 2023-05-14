@@ -25,16 +25,22 @@ The integration of 11 online survey datasets with different amounts of rows and 
 - The potential effects of missing answers
 
 
-Here is an example of the first problem:
+Here is an example of the 'Questionable explanatory power of self-identified answers':
 
 
 ![image 1](https://github.com/Bey0ndH0riz0ns/TWD/blob/main/Images/Example_Problem_1.PNG)
 
 
-Here is an example of the second problem:
+As we can see, the compTotal variable has joke answers alongside serious compensation ranges, making processing this variable difficult.
+
+
+Here is an example of the 'Identification of relevant questions from many questions':
 
 
 ![image 2](https://github.com/Bey0ndH0riz0ns/TWD/blob/main/Images/Example_Problem_2.PNG)
+
+
+As we can see in this 2017 dataset, there are many interesting variables, but there is no reason to assume all of them are useful, so only the most relevant questions should be selected.
 
 
 Here is an example of the third problem:
