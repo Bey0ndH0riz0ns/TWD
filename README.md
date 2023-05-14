@@ -43,7 +43,7 @@ Here is an example of the 'Identification of relevant questions from many questi
 As we can see in this 2017 dataset, there are many interesting variables, but there is no reason to assume all of them are useful, so only the most relevant questions should be selected.
 
 
-Here is an example of the third problem:
+Here is an example of the third problem with 2011 dataset shown in the first picture and 2022 dataset shown in the second picture:
 
 
 ![image 3](https://github.com/Bey0ndH0riz0ns/TWD/blob/main/Images/Example_Problem_3_1.PNG)
@@ -52,10 +52,16 @@ Here is an example of the third problem:
 ![image 4](https://github.com/Bey0ndH0riz0ns/TWD/blob/main/Images/Example_Problem_3_2.PNG)
 
 
+As we can see, there are some common things like country, but how they are named and how many more questions 2022 has makes integrating these datasets non-trivial.
+
+
 Here is an example of the fourth problem:
 
 
 ![image 5](https://github.com/Bey0ndH0riz0ns/TWD/blob/main/Images/Example_Problem_4.PNG)
+
+
+As we can see, the integrated dataset is quite huge, which makes it harder to handle with limited computational resources and different software limitations.
 
 
 Here is an example of the fifth problem:
